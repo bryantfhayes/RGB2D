@@ -1,26 +1,8 @@
-## Overview
+## Description
 RGB2D is super awesome puzzle game!
 
-### Definition of Terms
-### Primary Goal
-### Target Audience
-### Platforms
-### Technologies
-### Milestones
-### Budget
+## How to Play
+Well, we don't know yet either...
 
-## Functional Requirements
-### Usability
-### Social Media Integration
-### Server
-### Data Caching
-### Revenue Model
-### Geolocation / Push Notifications
-### Cocoapods
-
-## Design
-### Style and Fonts
-
-## Additional Information
-### Similar Apps / Competitions
-### Known Limitations
+## Created By:
+Who knows at this point
