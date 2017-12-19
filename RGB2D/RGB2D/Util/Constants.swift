@@ -9,8 +9,27 @@
 import Foundation
 import UIKit
 
-enum Color: Int {
-    case Red = 0xE03900
-    case Green = 0x4D8E27
-    case Blue = 0x176B86
+enum TileState: Int {
+    case Empty = 0
+    case Red = 1
+    case Green = 2
+    case Blue = 3
 }
+
+func colorForTileState(state: TileState) -> UIColor {
+    switch state {
+    case .Empty:
+        return UIColor(rgb: 0x9B9B9B)
+    case .Red:
+        return UIColor(rgb: 0xE03900)
+    case .Green:
+        return UIColor(rgb: 0x4D8E27)
+    case .Blue:
+        return UIColor(rgb: 0x176B86)
+    }
+}
+
+// MARK: Notifications
+let TileSelectedSuccessNotification = NSNotification.Name("TileSelectedSuccess")
+let TileSelectedFailedNotification = NSNotification.Name("TileSelectedFailed")
+
